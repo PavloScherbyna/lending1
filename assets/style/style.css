@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@font-face {
+    font-family: "Segoe UI";
+    src: url("/fonts/Segoe_UI/Segoe\ UI.ttf");
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -19,7 +24,30 @@
 .center_block{
     display: flex;
     align-items: center;
+    color: #fff;
+    margin: 68px 0 0 126px;
+    font-family: 'Paytone One', sans-serif;
+    font-weight: 400;
+
+}
+.logo{
+    background-image: url("/assets/image/logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 59px;
+    width: 143px;
+    display: flex;
+    align-items: center;
+}
+.logo h1{
+    text-align: center;
+    font-size: 25px;
+    padding-left: 14px;
 }
 .menu_chatigories{
     display: flex;
+}
+.menu_chatigories li{
+    list-style: none;
+    padding-left: 30px;
 }
