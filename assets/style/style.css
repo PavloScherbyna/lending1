@@ -7,11 +7,13 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	
 }
 .container {
 	max-width: 1280px;
 	margin: 0 auto;
+}
+.main_container{
+    max-width: 826px;
 }
 .menu{
     background-image: url("../image/bacground_1.png");
@@ -19,7 +21,6 @@
     height: 788px;
     overflow: hidden;
     background-size: cover;
-
 }
 .center_block{
     display: flex;
@@ -51,3 +52,31 @@
     list-style: none;
     padding-left: 30px;
 }
+/* Block main content ALPINE */
+.container_main{
+    max-width: 826px;
+    
+}
+.main_content{
+    background: linear-gradient(180deg, rgba(50, 42, 39, 0.00) 0%, rgba(45, 40, 40, 0.85) 33.85%, #2D2828 49.48%, #2D2828 68.75%, #2D2828 82.29%, #2D2828 100%);
+    color: #ffffff; 
+    font-family: Arial, sans-serif; 
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.3); 
+    box-shadow: -15px 0px 15px rgba(0, 0, 0, 0.30); 
+    max-width: 994px;
+    margin: 0 auto;
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.first_text{
+    padding:76px 101px 37px 67px;
+}
+.first_text h1{
+    color: #FFF;
+    font-family: "Paytone One", sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+}
+
