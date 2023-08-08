@@ -1,3 +1,7 @@
+:root {
+    --interval-length: 5px;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
 @font-face {
     font-family: "Segoe UI";
@@ -14,6 +18,7 @@
 }
 .main_container{
     max-width: 826px;
+    margin: 0 auto;
 }
 .menu{
     background-image: url("../image/bacground_1.png");
@@ -55,7 +60,7 @@
 /* Block main content ALPINE */
 .container_main{
     max-width: 826px;
-    
+    margin: 0 auto;
 }
 .main_content{
     background: linear-gradient(180deg, rgba(50, 42, 39, 0.00) 0%, rgba(45, 40, 40, 0.85) 33.85%, #2D2828 49.48%, #2D2828 68.75%, #2D2828 82.29%, #2D2828 100%);
@@ -65,10 +70,12 @@
     box-shadow: -15px 0px 15px rgba(0, 0, 0, 0.30); 
     max-width: 994px;
     margin: 0 auto;
-    position: absolute; 
-    bottom: 0;
+    position: absolute;
+    top: 204px;
     left: 0;
     right: 0;
+    height: 1681px;
+    overflow: hidden;
 }
 .first_text{
     padding:76px 101px 37px 67px;
@@ -78,5 +85,141 @@
     font-family: "Paytone One", sans-serif;
     font-size: 64px;
     font-weight: 400;
+    padding-bottom: 20px;
 }
+.first_text h3{
+    color: #FFF;
+    font-family: "Paytone One", sans-serif;
+    font-size: 20px;
+    font-weight: 400;    
+    padding-bottom: 30px;
+}
+.first_text p{
+    color: #FFF;
+    text-shadow: 1px 10px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Segoe UI", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+
+
+.input_inform input{
+    width: 291px;
+    height: 36px;
+    margin-right: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, 0.40);
+    border-radius: 50px;
+    border: 2px solid rgba(255, 255, 255, 0.40);
+    padding: 9px 0 9px 35px;
+    font-family: "Pavanam", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.input_inform a{
+    width: 123px;
+    height: 36px;
+    border-radius: 50px;
+    border: 2px solid var(--red, #FF1640);
+    text-align: center;
+    padding: 9px 20px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.40);
+}
+.brands_block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 110px;
+    position: relative;
+    gap: 71px;
+}
+hr{
+    position: absolute;
+    top: 470px;
+    width: 994px;
+    background-color: rgba(255, 255, 255, 0.20);
+    height: 1px;
+    border: none;
+}
+
+/* second wrapp inform */
+main{
+    background-image: url("/assets/image/bacground_2.png");
+    background-repeat: no-repeat;
+    height: 1669px;
+    overflow: hidden;
+    background-size: cover;
+
+}
+.collage_image {
+    position: relative;
+    padding-top: 80px;
+}
+
+.img_1 {
+    position: absolute;
+    top: 150px;
+    z-index: 0;
+}
+
+.img_2 {
+    position: absolute;
+    top: 80;
+    left: 250px; /* Змінено з padding-right */
+    z-index: 1; /* Найвищий z-index, щоб накривати img_1 і img_3 */
+}
+
+.img_3 {
+    position: absolute;
+    top: 150px;
+    right: 0;
+    z-index: 0; /* Зображення з найменшим z-index */
+}
+
+.marketing_centent {
+    position: relative;
+    left: 0;
+    top: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px;
+}
+#line {
+    display: block;
+    width: 215px;
+    height: 1px;
+    background-image: linear-gradient(to right, transparent calc(6% - 5px), transparent calc(6.25% - 5px), #fff calc(6.25% - 5px), #fff calc(12.5% - 5px), transparent calc(12.5% - 5px), transparent 12.5%, #fff 12.5%, #fff calc(18.75% - 5px), transparent calc(18.75% - 5px), transparent 18.75%, #fff 18.75%, #fff calc(25% - 5px), transparent calc(25% - 5px), transparent 25%, #fff 25%, #fff calc(31.25% - 5px), transparent calc(31.25% - 5px), transparent 31.25%, #fff 31.25%, #fff calc(37.5% - 5px), transparent calc(37.5% - 5px), transparent 37.5%, #fff 37.5%, #fff calc(43.75% - 5px), transparent calc(43.75% - 5px), transparent 43.75%, #fff 43.75%, #fff calc(50% - 5px), transparent calc(50% - 5px), transparent 50%, #fff 50%, #fff calc(56.25% - 5px), transparent calc(56.25% - 5px), transparent 56.25%, #fff 56.25%, #fff calc(62.5% - 5px), transparent calc(62.5% - 5px), transparent 62.5%, #fff 62.5%, #fff calc(68.75% - 5px), transparent calc(68.75% - 5px), transparent 68.75%, #fff 68.75%, #fff calc(75% - 5px), transparent calc(75% - 5px), transparent 75%, #fff 75%, #fff calc(81.25% - 5px), transparent calc(81.25% - 5px), transparent 81.25%, #fff 81.25%, #fff calc(87.5% - 5px), transparent calc(87.5% - 5px), transparent 87.5%, #fff 87.5%, #fff calc(93.75% - 5px), transparent calc(93.75% - 5px), transparent 93.75%, #fff 93.75%, #fff calc(100% - 5px), transparent calc(100% - 5px));
+    background-size: 100% 1px; /* Задати ширину і висоту лінії */
+    background-repeat: no-repeat;
+    margin: 0 10px 0 6px; /* Додайте відступи зверху та знизу */
+}
+
+
+.inform_card_1{
+    position: relative;
+    left: 0;
+    top: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px;
+}
+
+.inform_card_2{
+    position: relative;
+    left: 0;
+    top: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px;
+}
+
 
